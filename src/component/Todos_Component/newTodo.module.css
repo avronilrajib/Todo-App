@@ -1,0 +1,46 @@
+.form{
+    width: 100%;
+    background-color: rgb(12, 99, 95);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+    box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+-webkit-box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+-moz-box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+}
+.form-field{
+    margin: 1rem 0;
+    display: flex;
+}
+.form-field label{
+    flex-basis: 20%;
+}
+.form-field input{
+    flex-basis: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.form-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+.form button{
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+}
+.form button:hover{
+    background-color: rgb(38, 0, 255);
+    color: white;
+    transition: .5s;
+}

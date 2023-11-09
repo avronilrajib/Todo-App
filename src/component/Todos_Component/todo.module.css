@@ -1,0 +1,25 @@
+.todo{
+    background-color: #1E90FF;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+    -webkit-box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+    -moz-box-shadow: -2px -5px 69px 12px rgba(0,0,0,0.54) inset;
+}
+.todo:hover{
+    background: #037ef9;
+    transition: .5s;
+}
+.todo p{
+    opacity: 0.6;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
